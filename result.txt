@@ -1,0 +1,22 @@
+WARN: sonar-runner.bat script is deprecated. Please use sonar-scanner.bat instead.
+c:\devtools\sonar-scanner-2.8\bin\..
+11:16:46.407 INFO: Scanner configuration file: c:\devtools\sonar-scanner-2.8\bin\..\conf\sonar-scanner.properties
+11:16:46.411 INFO: Project root configuration file: C:\Users\x924\IdeaProjects\SallyFinalJava\sonar-project.properties
+11:16:46.422 INFO: SonarQube Scanner 2.8
+11:16:46.422 INFO: Java 1.8.0_92 Oracle Corporation (64-bit)
+11:16:46.422 INFO: Windows 7 6.1 amd64
+11:16:46.512 DEBUG: keyStore is : 
+11:16:46.512 DEBUG: keyStore type is : jks
+11:16:46.512 DEBUG: keyStore provider is : 
+11:16:46.512 DEBUG: init keystore
+11:16:46.512 DEBUG: init keymanager of type SunX509
+11:16:46.560 INFO: User cache: C:\Users\x924\.sonar\cache
+11:16:46.560 DEBUG: Extract sonar-scanner-api-batch in temp...
+11:16:46.564 DEBUG: Get bootstrap index...
+11:16:46.564 DEBUG: Download: http://localhost:9000/batch_bootstrap/index
+11:16:47.606 INFO: ------------------------------------------------------------------------
+11:16:47.606 INFO: EXECUTION FAILURE
+11:16:47.606 INFO: ------------------------------------------------------------------------
+11:16:47.606 INFO: Total time: 1.219s
+11:16:47.622 INFO: Final Memory: 4M/243M
+11:16:47.622 INFO: ------------------------------------------------------------------------
