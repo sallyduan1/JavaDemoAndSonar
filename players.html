@@ -1,0 +1,19 @@
+<div class="container pad-top">
+  <a ui-sref="newPlayer" class="btn-primary btn-lg nodecoration">Add New Player</a>
+  <table class="table <td>{{player.age}}</td>table">
+      <tr>
+          <td><h3>All Players</h3></td>
+          <td></td>
+      </tr>
+      <tr ng-repeat="player in players">
+          <td>{{player.name}}</td>
+          <td>{{player.description}}</td>
+          <td>{{player.age}}</td>
+          <td>{{player.level}}</td>
+          <td>
+              <a class="btn btn-primary" ui-sref="viewPlayer({id:player.id})">View</a>
+              <a class="btn btn-danger"  ng-click="deletePlayer(player)">Delete</a>
+          </td>
+      </tr>
+  </table>
+</div>

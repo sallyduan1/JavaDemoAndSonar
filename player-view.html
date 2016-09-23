@@ -1,0 +1,29 @@
+<div class="container pad-top">
+  <table class="table playertable">
+      <tr>
+          <td><h3>Details for {{player.name}}</h3></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Name</td>
+          <td>{{player.name}}</td>
+      </tr>
+      <tr>
+          <td>Description</td>
+          <td>{{player.description}}</td>
+      </tr>
+
+      <tr>
+          <td>Age</td>
+          <td>{{player.age}}</td>
+      </tr>
+      <tr>
+          <td>Level</td>
+          <td>{{player.level}}</td>
+      </tr>
+
+  </table>
+  <div>
+      <a class="btn btn-primary" ui-sref="editPlayer({id:player.id})">Edit</a>
+  </div>
+</div>
